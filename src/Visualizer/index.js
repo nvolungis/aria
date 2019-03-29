@@ -15,7 +15,7 @@ export default ({node, width, height}) => {
     canvasContext.fillRect(0, 0, width, height);
 
     canvasContext.lineWidth = 2;
-    canvasContext.strokeStyle = 'rgb(0, 0, 0)';
+    canvasContext.strokeStyle = '#505050';
 
     canvasContext.beginPath();
 

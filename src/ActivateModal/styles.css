@@ -1,0 +1,40 @@
+.Modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #FEF4F2;
+  opacity: 1;
+  transition: opacity 300ms ease;
+}
+
+.Modal--is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Modal__headline {
+  color: #26496C;
+}
+
+.Modal__content {
+  text-align: center;
+  transform: translateY(-100px);
+}
+
+.Modal__button {
+  background: #6FDBA9;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+

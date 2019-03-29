@@ -1,6 +1,6 @@
 .Keyboard {
-  border: 2px solid black;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -10,12 +10,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  border: 2px solid #505050;
   flex-grow: 0;
   flex-shrink: 0;
   margin: 5px;
+  cursor: pointer;
+  transition: background 200ms ease;
 }
 
-.Keyboard__tone--is-active {
+.Keyboard__tone:hover {
+  background: #505050;
+  color: white;
+}
+
+.Keyboard__tone--is-active,
+.Keyboard__tone--is-active:hover {
   background: pink;
+  color: #505050;
 }

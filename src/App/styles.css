@@ -1,0 +1,9 @@
+.App {
+  transition: opacity 300ms ease, transform 300ms ease;
+  transition-delay: 200ms;
+}
+
+.App--is-inactive {
+  opacity: 0;
+  transform: scale(.9);
+}
